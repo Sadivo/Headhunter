@@ -4,7 +4,11 @@
       "Bash(uv sync:*)",
       "Bash(uv run python -c ':*)",
       "Bash(uv run:*)",
-      "Bash(ls C:/project/Headhunter/*.md)"
+      "Bash(ls C:/project/Headhunter/*.md)",
+      "WebSearch",
+      "WebFetch(domain:blog.jiatool.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(uv add:*)"
     ]
   }
 }

@@ -5,3 +5,4 @@ __pycache__/
 reports/
 *.egg-info/
 dist/
+.claude/
