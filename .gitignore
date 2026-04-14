@@ -6,3 +6,4 @@ reports/
 *.egg-info/
 dist/
 .claude/
+resume/resume.md

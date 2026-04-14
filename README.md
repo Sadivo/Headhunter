@@ -32,14 +32,18 @@ TAVILY_API_KEY=tvly-你的金鑰
 
 **3. 準備履歷**
 
-將履歷存為 `resume/resume.md`（Markdown 格式）：
+將履歷存為 `resume/resume.md`（Markdown 格式，此檔案已加入 `.gitignore`，不會上傳至 git）。
 
-```markdown
-## 基本資料
-## 工作經驗
-## 技能
-## 學歷
-```
+可參考範本 `resume/resume.example.md` 自行填寫，或請 AI 協助建立：
+
+> 在 Claude Code 中貼上以下提示：
+> ```
+> 請參考 resume/resume.example.md 的格式，
+> 根據我提供的資料幫我建立 resume/resume.md。
+>
+> 我的背景：
+> （在此描述你的學歷、工作經歷、技能等）
+> ```
 
 ---
 
