@@ -5,13 +5,13 @@
 已確認的 API 端點（只在瀏覽器環境下回傳 JSON）：
   - 公司搜尋：https://www.104.com.tw/company/ajax/list?keyword={keyword}
   - 公司資料：https://www.104.com.tw/api/companies/{encodedCustNo}/content
-  - 公司職缺：https://www.104.com.tw/api/companies/{encodedCustNo}/jobs?pageSize=20
+  - 公司職缺：https://www.104.com.tw/api/companies/{encodedCustNo}/jobs?pageSize=50
 """
 
 from dataclasses import dataclass, field
 from playwright.sync_api import sync_playwright
 
-MAX_JOBS = 20
+MAX_JOBS = 50
 
 
 @dataclass

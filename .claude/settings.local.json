@@ -8,7 +8,12 @@
       "WebSearch",
       "WebFetch(domain:blog.jiatool.com)",
       "WebFetch(domain:github.com)",
-      "Bash(uv add:*)"
+      "Bash(uv add:*)",
+      "Bash(python -c ':*)",
+      "Bash(.venv/Scripts/python -c ':*)",
+      "Bash(.venv/Scripts/pip list:*)",
+      "Bash(.venv/Scripts/python.exe -c ':*)",
+      "Bash(.venv/Scripts/python.exe -m pip list)"
     ]
   }
 }
