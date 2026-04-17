@@ -80,7 +80,7 @@ uv run headhunter
 
 ---
 
-## 工具二：search-104（批量篩選職缺）
+## 工具二：search104（批量篩選職缺）
 
 適合廣泛搜尋、想讓 AI 從大量職缺中找出最適合自己的機會時使用。
 
@@ -91,7 +91,7 @@ uv run headhunter
 ### 步驟 2：執行爬蟲
 
 ```bash
-uv run search-104
+uv run search104
 ```
 
 貼上 104 搜尋網址，設定抓取上限（預設 80 筆），工具會：
@@ -102,7 +102,7 @@ uv run search-104
 也可直接傳入網址（跳過互動提示）：
 
 ```bash
-uv run search-104 "https://www.104.com.tw/jobs/search/?keyword=後端工程師&area=..."
+uv run search104 "https://www.104.com.tw/jobs/search/?keyword=後端工程師&area=..."
 ```
 
 ### 步驟 3：AI 篩選比對
