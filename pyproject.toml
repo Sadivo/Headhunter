@@ -16,6 +16,7 @@ dependencies = [
 [project.scripts]
 headhunter = "src.main:main"
 search104 = "src.search_104:main"
+search1111 = "src.search_1111:main"
 vendor-search = "src.vendor_search:main"
 
 [tool.hatch.build.targets.wheel]
