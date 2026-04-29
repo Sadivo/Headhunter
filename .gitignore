@@ -5,7 +5,6 @@ __pycache__/
 reports/
 *.egg-info/
 dist/
-.claude/
 resume/resume.md
 resume/resume_old.md
 tmp/

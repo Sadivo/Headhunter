@@ -74,7 +74,7 @@ reports/
 
 Defined in `.claude/commands/`:
 - `/job_research {research_data.md}` — Analyzes single company research against resume
-- `/job_match {jobs.md}` — Ranks multiple jobs 1–5 stars against resume
+- `/job_match {jobs.md}` — Ranks multiple jobs 1–5 stars against resume; keeps "碩士／博士 + 0 經驗" roles in the ranked pool when skills and domain fit are strong, and marks them as `可衝刺`
 
 User resume lives at `resume/resume.md` (gitignored, see `resume/resume.example.md` for format).
 

@@ -23,6 +23,7 @@ uv run playwright install chromium
 **2. 設定 API Key**
 
 ```bash
+# 只有"工具一"會用到
 copy .env.example .env
 ```
 
@@ -115,6 +116,7 @@ uv run search104 "https://www.104.com.tw/jobs/search/?keyword=後端工程師&ar
 
 Claude 會逐一閱讀每筆職缺的完整 JD，對照你的履歷評分（⭐～⭐⭐⭐⭐⭐），輸出：
 - 推薦職缺排名（含推薦理由與注意事項）
+- 可衝刺職缺觀察（例如碩士／博士 + 0 經驗，但核心技能命中的職缺）
 - 不建議投遞的原因
 - 履歷優化建議（根據這批 JD 的關鍵字）
 
